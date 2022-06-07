@@ -1,0 +1,15 @@
+spring:
+  datasource:
+    hikari:
+      maximum-pool-size: 2
+    url: jdbc:postgresql://localhost:5432/postgres
+    password: postgres
+    username: postgres
+
+  jpa:
+    show-sql: false
+    database-platform: org.hibernate.dialect.PostgreSQL94Dialect
+    hibernate:
+      ddl-auto: none
+
+
